@@ -22,7 +22,7 @@ var trs3 = ' \n   \/* 这个看起来不太好看的样子,需要稍作修改好
 	var languagesJudge_No = 922 ;//独白结束
 	var languages_No = 1014 ; //独白开始，代码结束
 	var languageTotal_No = 1603 ;  //总结束
-	var SpellSpeed = 80 ;
+	var SpellSpeed = 1 ;
 
 	//Mytemp.style.textAlign = "Center" ;
 	const MySoulAudio = document.getElementById('MySoul');
