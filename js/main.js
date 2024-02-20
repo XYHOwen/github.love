@@ -42,7 +42,7 @@ var controller= setInterval(put,SpellSpeed);
 
 			n++;
 
-			if (n>=145){
+			if (n>=125){
 				AutumnMissAudio.play();
 				//SpellSpeed = 80 ;
 				}
