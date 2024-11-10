@@ -21,7 +21,7 @@ var str = introduce.concat(sty1).concat(trs1).concat(lightheight).concat(trs2).c
 	var languagesJudge_No = 1300 ;//独白结束
 	var languages_No = 1599 ; //独白开始，代码结束
 	var languageTotal_No = 2799 ;  //总结束
-	var SpellSpeed = 1 ;
+	var SpellSpeed = 30 ;
 
 	//Mytemp.style.textAlign = "Center" ;
 	const MySoulAudio = document.getElementById('MySoul');
@@ -82,7 +82,7 @@ var controller= setInterval(put,SpellSpeed);
 			if (n>languages_No){
 				MySoulAudio.play();
 				AutumnMissAudio.pause();
-				//SpellSpeed = 10 ;
+				SpellSpeed = 500 ;
 				}
 
 			if(n>languages_No && n<languageTotal_No && AutumnMissAudio.paused){
